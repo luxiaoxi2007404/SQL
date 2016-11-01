@@ -1,0 +1,175 @@
+﻿1、查询课程1的成绩 比 课程2的成绩 高 的所有学生的学号；
+SELECT sc1.sno
+FROM (SELECT sno,score
+     FROM sc
+     WHERE cno = 1) AS sc1,
+     (SELECT sno,score
+     FROM sc
+     WHERE cno = 2) AS sc2
+WHERE sc1.sno = sc2.sno
+  AND sc1.score > sc2.score;
+
+2、查询平均成绩大于60分的同学的学号和平均成绩
+SELECT sno,AVG(score)
+FROM sc
+GROUP BY sno
+HAVING AVG(score)> 60
+
+3、查询所有同学的学号、姓名、选课数、总成绩
+SELECT sc.sno,sname,COUNT(cno),SUM(score)																
+FROM sc,student
+WHERE sc.sno = student.sno
+GROUP BY sc.sno
+
+4、查询姓“李”的老师的个数
+SELECT COUNT( DISTINCT tname)
+FROM teacher
+WHERE tname LIKE '李%'
+
+5、查询没学过“叶平”老师课的同学的学号、姓名
+SELECT sno,sname
+FROM student
+WHERE sno NOT IN (SELECT sno
+     		  FROM course,teacher,sc						
+                  WHERE course.tno = teacher.tno
+	            AND course.cno =sc.cno
+		    AND tname = '叶平')
+
+6、查询同时学过课程1和课程2的同学的学号、姓名
+SELECT sno,sname
+FROM student
+WHERE sno IN (SELECT sc1.sno
+	      FROM (SELECT sno
+		    FROM sc
+		    WHERE cno = 1) AS sc1,
+	           (SELECT sno
+		    FROM sc
+	            WHERE cno = 2) AS sc2
+	     WHERE sc1.sno = sc2.sno)
+
+7、查询学过“叶平”老师所教所有课程的所有同学的学号、姓名
+SELECT sno,sname
+FROM student
+WHERE sno IN (SELECT sno
+	        FROM course,teacher,sc
+		WHERE course.tno = teacher.tno
+		AND course.cno =sc.cno
+		AND tname = '叶平')
+
+8、查询 课程编号1的成绩 比 课程编号2的成绩 高的所有同学的学号、姓名
+SELECT sno,sname
+FROM student
+WHERE sno IN  (SELECT sc1.sno
+		FROM (SELECT sno,score
+			FROM sc
+			WHERE cno = 1) AS sc1,
+		     (SELECT sno,score
+			FROM sc
+			WHERE cno = 2) AS sc2
+		WHERE sc1.sno = sc2.sno
+		AND sc1.score > sc2.score)
+
+9、查询所有课程成绩小于60分的同学的学号、姓名
+SELECT sno,sname
+FROM student
+WHERE sno NOT IN (SELECT DISTINCT sno
+                  FROM sc
+                  WHERE score > 60)
+
+10、查询所有课程成绩大于60分的同学的学号、姓名
+SELECT sno,sname
+FROM student
+WHERE sno NOT IN (SELECT DISTINCT sno
+                  FROM sc
+                  WHERE score < 60)
+
+11、查询没有学全所有课的同学的学号、姓名
+SELECT sno,sname
+FROM student
+WHERE sno NOT IN ( SELECT sno
+		     FROM sc
+		 GROUP BY sno
+		 HAVING COUNT(sc.cno)< (SELECT COUNT(course.cno)
+                                         FROM course)				    
+                   )
+
+12、查询至少有一门课程 与 学号为1的同学所学课程 相同的同学的学号和姓名
+SELECT sc.sno,sname
+FROM student,sc
+WHERE student.sno = sc.sno
+    AND sc.sno != 1
+    AND cno IN (SELECT cno
+                FROM sc
+                WHERE sno =1)
+GROUP BY sc.sno 
+
+13、把“sc”表中“刘老师”所教课的成绩都更改为此课程的平均成绩
+CREATE TABLE sc1(
+sno INT NOT NULL, 
+cno  INT NOT NULL, 
+score  INT NOT NULL )
+
+INSERT sc1
+SELECT *
+FROM sc
+
+UPDATE sc
+SET score = (SELECT AVG(score)
+	       FROM sc1
+            GROUP BY sc1.cno
+	     HAVING sc1.cno = (SELECT c.cno
+				FROM course AS c, teacher AS t
+				WHERE c.tno = t.tno
+				AND t.tname = '刘老师'))
+WHERE cno IN (SELECT c.cno
+		FROM course AS c, teacher AS t
+		WHERE c.tno = t.tno
+		AND t.tname = '刘老师');
+
+--恢复sc
+TRUNCATE TABLE sc;
+
+INSERT INTO sc
+SELECT *
+FROM sc1;
+
+--删除sc1
+DROP TABLE sc1;
+
+14、查询和2号同学学习的课程完全相同的其他同学学号和姓名
+SELECT sno,sname
+FROM student
+WHERE sno IN (SELECT sno
+              FROM sc
+              GROUP BY sno
+              HAVING sum(cno) = (SELECT SUM(cno)
+                                 FROM sc
+                                 GROUP BY sno
+                                 HAVING sno = 2)
+                AND sno != 2
+               )
+
+
+15、删除学习“叶平”老师课的sc表记录
+CREATE TABLE sc1(
+sno int NOT NULL ,
+cno int NOT NULL ,
+score int NOT NULL 
+)
+
+INSERT sc1
+SELECT * 
+FROM sc
+
+
+DELETE FROM sc
+WHERE cno = (SELECT cno
+             FROM teacher,course
+             WHERE teacher.tno = course.tno
+              AND tname = '叶平')
+
+
+TRUNCATE TABLE sc
+INSERT sc
+SELECT *
+FROM sc1
