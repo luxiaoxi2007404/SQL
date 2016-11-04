@@ -1,0 +1,48 @@
+16、向sc表中插入一些记录，这些记录要求符合以下条件：
+    将没有课程3成绩同学的该成绩补齐, 其成绩取所有学生的课程2的平均成绩；
+INSERT sc
+SELECT sno,3,SELECT AVG(score)
+             FROM sc
+             WHERE cno = 2
+FROM sc
+WHERE sno NOT IN (SELECT sno
+                  FROM sc
+                  WHERE cno = 3)
+
+17、按平均分从高到低显示所有学生的如下统计报表：
+    学号,企业管理,马克思,UML,数据库,物理,课程数,平均分；
+SELECT  sno AS 学号,
+	MAX(CASE WHEN cno = 1 THEN score END) AS 企业管理,
+	MAX(CASE WHEN cno = 2 THEN score END) AS 马克思,
+	MAX(CASE WHEN cno = 3 THEN score END) AS UML,
+	MAX(CASE WHEN cno = 4 THEN score END) AS 数据库,
+	MAX(CASE WHEN cno = 5 THEN score END) AS 物理,
+	COUNT(cno) AS 课程数,
+	AVG(score) AS 平均分
+FROM sc
+GROUP BY sno
+ORDER BY AVG(score) DESC;     
+       
+18、查询各科成绩最高分和最低分：以如下形式显示：课程号，最高分，最低分
+
+SELECT cno AS 课程号,MAX(score) AS 最高分,MIN(score) AS 最低分
+FROM sc
+GROUP BY cno
+
+19、查询课程号、课程名、各科平均成绩、及格率，按各科平均成绩从低到高和及格率的百分数从高到低顺序；
+SELECT sc.cno AS 课程号,cname AS 课程名,AVG(score) AS 平均成绩,SUM(CASE WHEN IFNULL(score, 0) >= 60 THEN 1 ELSE 0 END)/COUNT(score) AS 及格率
+FROM sc,course
+WHERE sc.cno = course.cno
+GROUP BY sc.cno
+ORDER BY 平均成绩,及格率
+
+20、查询如下课程平均成绩和及格率的百分数(用"1行"显示): 企业管理（001），马克思（002），UML （003），数据库（004）；
+SELECT AVG(case when cno = 1 then score end) AS 平均分1,
+       AVG(case when cno = 2 then score end) AS 平均分2,
+       AVG(case when cno = 3 then score end) AS 平均分3,
+       AVG(case when cno = 4 then score end) AS 平均分4,
+       100 * sum(case when cno = 1 and score > 60 then 1 else 0 end) / sum(case when cno = 1 then 1 else 0 end) as 及格率1,
+       100 * sum(case when cno = 2 and score > 60 then 1 else 0 end) / sum(case when cno = 2 then 1 else 0 end) as 及格率2,
+       100 * sum(case when cno = 3 and score > 60 then 1 else 0 end) / sum(case when cno = 3 then 1 else 0 end) as 及格率3,
+       100 * sum(case when cno = 4 and score > 60 then 1 else 0 end) / sum(case when cno = 4 then 1 else 0 end) as 及格率4
+from sc
