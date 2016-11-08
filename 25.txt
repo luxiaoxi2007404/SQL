@@ -1,0 +1,55 @@
+21、查询不同老师所教不同课程平均分, 从高到低显示
+
+SELECT tname,cname,AVG(score)
+FROM sc,course,teacher 
+WHERE sc.cno = course.cno
+  AND course.tno = teacher.tno
+GROUP BY sc.cno
+ORDER BY AVG(score) DESC
+
+22、查询如下课程成绩均在第3名到第6名之间的学生的成绩：【不懂】
+  [学生ID],[学生姓名],企业管理,马克思,UML,数据库,平均成绩；
+SELECT MAX(sc.sno) AS 学生ID,
+       MAX(s.sname) AS 学生姓名,
+       MAX(CASE WHEN sc.cno = 1 THEN score END) AS 企业管理,
+       MAX(CASE WHEN sc.cno = 2 THEN score END) AS 马克思,
+       MAX(CASE WHEN sc.cno = 3 THEN score END) AS UML,
+       MAX(CASE WHEN sc.cno = 4 THEN score END) AS 数据库,
+       AVG(score) AS 平均成绩
+FROM sc, student AS s
+WHERE sc.sno = s.sno
+  AND sc.sno IN (SELECT sno FROM (SELECT sno FROM sc WHERE cno = 1 ORDER BY score DESC LIMIT 2, 4) AS in1)
+  AND sc.sno IN (SELECT sno FROM (SELECT sno FROM sc WHERE cno = 2 ORDER BY score DESC LIMIT 2, 4) AS in1)
+  AND sc.sno IN (SELECT sno FROM (SELECT sno FROM sc WHERE cno = 3 ORDER BY score DESC LIMIT 2, 4) AS in1)
+  AND sc.sno IN (SELECT sno FROM (SELECT sno FROM sc WHERE cno = 4 ORDER BY score DESC LIMIT 2, 4) AS in1)
+GROUP BY sc.sno;
+
+
+23、统计打印各科成绩,各分数段人数:课程ID,课程名称,[100-85],[85-70],[70-60],[ <60]；
+SELECT sc.cno AS 课程ID,
+       cname AS 课程名称,
+       SUM(CASE WHEN score >=85 THEN 1 ELSE 0 END ) AS '[100-85]',
+       SUM(CASE WHEN score < 85 AND score >= 70 THEN 1 ELSE 0 END) AS '[85-70]',
+       SUM(CASE WHEN score < 70 AND score >= 60 THEN 1 ELSE 0 END) AS '[70-60]',
+       SUM(CASE WHEN score < 60 THEN 1 ELSE 0 END) AS '[ <60]'    
+FROM sc,course
+WHERE sc.cno = course.cno
+GROUP BY sc.cno
+
+24、查询学生平均分及其名次；【不太懂】
+SELECT sno,
+       T2.平均成绩 AS 平均分,
+       1+(SELECT COUNT(DISTINCT 平均成绩)
+          FROM (SELECT sno, AVG(score) AS 平均成绩 FROM sc GROUP BY sno) AS T1
+	  WHERE T1.平均成绩 > T2.平均成绩) AS 名次
+FROM (SELECT sno, AVG(score) AS 平均成绩 FROM sc GROUP BY sno) AS T2 
+ORDER BY 平均分 DESC
+
+25、查询各科成绩前三名的记录:(不考虑成绩并列情况)；
+SELECT a.cno,a.sno,a.score
+FROM sc AS a
+WHERE (SELECT COUNT(cno) 
+       FROM sc 
+       WHERE cno = a.cno 
+       AND a.score < score) <= 2
+ORDER BY a.cno,a.score DESC
