@@ -1,0 +1,34 @@
+26、查询每门课程被选修的学生数；
+
+SELECT cno,COUNT(cno)
+FROM sc
+GROUP BY cno
+
+27、查询出只选修了一门课程的全部学生的学号和姓名；
+
+SELECT sc.sno,sname
+FROM sc,student
+WHERE sc.sno = student.sno
+GROUP BY sc.cno
+HAVING COUNT(cno) = 1
+
+28、查询男生、女生人数；
+SELECT COUNT(sno)
+FROM student 
+GROUP BY ssex
+
+
+SELECT SUM(CASE WHEN ssex = '男' THEN 1 ELSE 0 END) AS 男生人数,
+       SUM(CASE WHEN ssex = '女' THEN 1 ELSE 0 END) AS 女生人数
+FROM student
+
+29、查询姓“张”的学生名单；
+SELECT sno,sname
+FROM student
+WHERE sname LIKE '张%'
+
+30、查询同名同性学生名单，并统计同名人数；
+SELECT sname,COUNT(sname)
+FROM student 
+GROUP BY sname
+HAVING COUNT(sname) > 1
