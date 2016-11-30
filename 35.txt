@@ -1,0 +1,32 @@
+31、1981年出生的学生名单(注：student表中sage列的类型是datetime)；
+SELECT sno,sname
+FROM student
+WHERE Year(sage) = 1981 
+
+32、查询每门课程的平均成绩，结果按平均成绩升序排列，平均成绩相同时，按课程号降序排列；
+SELECT cno AS 课程号,AVG(score) AS 平均成绩
+FROM sc
+GROUP BY cno
+ORDER BY AVG(score),cno DESC
+
+33、查询平均成绩大于80的所有学生的学号、姓名和平均成绩；
+SELECT sc.sno AS 学号,sname AS 姓名,AVG(score) AS 平均成绩
+FROM sc,student
+WHERE sc.sno = student.sno
+GROUP BY sc.sno
+HAVING AVG(score) > 80
+
+34、查询 数据库 分数 低于60的学生姓名和分数；
+SELECT sname AS 姓名,score AS 分数
+FROM sc,student,course
+WHERE sc.sno = student.sno
+  AND sc.cno = course.cno
+  AND course.cname = "数据库"
+   AND score < 60
+
+35、查询所有学生的选课情况；
+SELECT student.sno AS 学号,sname AS 姓名,sc.cno AS 课程号,course.cname AS 课程名
+FROM student,course,sc
+WHERE student.sno = sc.sno
+ AND  sc.cno = course.cno
+ORDER BY student.sno
