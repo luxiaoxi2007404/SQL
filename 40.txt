@@ -1,0 +1,34 @@
+36、查询成绩在70分以上的学生姓名、课程名称和分数；
+SELECT sname,cname,score
+FROM student,sc,course
+WHERE student.sno = sc.sno
+ AND sc.cno = course.cno
+ AND score > 70
+
+37、查询不及格的课程，并按课程号从大到小排列；
+SELECT course.cno AS 课程号,sname AS 学生姓名,cname AS 课程名,score AS 分数
+from sc,course,student
+WHERE sc.sno = student.sno
+ AND sc.cno = course.cno
+ AND score < 60
+ORDER BY course.cno DESC
+
+38、查询课程编号为3且课程成绩在80分以上的学生的学号和姓名；
+SELECT sc.sno,sname
+FROM sc,student
+WHERE sc.sno = student.sno
+ AND score > 80
+ AND sc.cno = 3
+
+39、求选了课程的学生人数；
+SELECT COUNT(DISTINCT(sno))
+FROM sc
+
+40、查询选修“叶平”老师所授课程的学生中，成绩最高的学生姓名及其成绩；
+SELECT sname,cname,score
+FROM sc,teacher,student,course
+WHERE sc.sno = student.sno
+ AND  course.tno = teacher.tno
+ AND  course.cno = sc.cno
+ AND  teacher.tname = "叶平"
+LIMIT 1
