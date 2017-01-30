@@ -1,0 +1,46 @@
+46、查询全部学生都选修的课程的课程号和课程名；
+SELECT a.cname,
+       b.cno
+FROM
+(SELECT cno,cname
+FROM  course
+) as a
+RIGHT JOIN
+(SELECT cno
+FROM sc
+GROUP BY cno
+HAVING COUNT(sno) = (select COUNT(*) FROM student)
+) as b
+ON a.cno = b.cno
+
+
+47、查询没学过“叶平”老师讲授的任一门课程的学生姓名；
+SELECT SNO,sname as 学生姓名
+FROM student
+WHERE sno NOT IN 
+(SELECT sc.sno
+FROM sc,student,teacher,course
+WHERE sc.sno = student.sno
+   AND   course.tno = teacher.tno
+   AND   sc.cno = course.cno
+   AND   teacher.tname = "叶平"
+)
+
+48、查询两门以上不及格课程的同学的学号及其平均成绩；
+SELECT sno,AVG(score)
+FROM sc
+WHERE score <60
+GROUP BY sno
+HAVING SUM(case when score < 60 then 1 END) >2
+
+49、检索4号课程分数大于60的同学学号，按分数降序排列；
+SELECT sno,score
+FROM sc
+WHERE score > 60
+ AND cno = 4
+ORDER BY score DESC
+
+50、删除2号同学的课程1的成绩；
+DELETE FROM sc
+WHERE sno = 2
+AND cno = 1;
