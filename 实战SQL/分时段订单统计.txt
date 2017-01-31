@@ -1,0 +1,33 @@
+
+模板名称:	快专车司机完成快车订单分时段统计	业务线:	快车,专车
+模板列名:	日期,司机ID,加盟方式,车辆级别,时段1成单数,时段2成单数	
+模板内容:
+
+SELECT 
+a.date,
+a.driver_id,
+b.driver_join_model,
+b.driver_car_level,
+a.time1,
+a.time2
+FROM
+(SELECT 
+concat_ws('-',year,month ,day) as date,
+driver_id,
+count (CASE WHEN substr(a_create_time,12,5) between '' and ''  time1,
+count (CASE WHEN substr(a_create_time,12,5) between '' and '' time2
+FROM dw_v_driver_base
+WHERE concat_ws('-',year,month ,day) BETWEEN '' AND ''
+  AND order_status = 5
+  AND city_id in ()
+  AND product_id in (3,4)
+  and (substr(finish_time, 12, 5) between '${frame1_from}' and '${frame1_to}' or substr(finish_time, 12, 5) between '${frame2_from}' and '${frame2_to}')
+GROUP BY driver_id) a
+LEFT JOIN	
+(SELECT 
+driver_id,
+driver_join_model as driver_join_model,
+driver_car_level as driver_car_level
+FROM dw_v_driver_base
+where concat_ws('-',year,month,day)=greatest('${data_from}','${data_to}')) b
+ON a.driver_id = b.driver_id

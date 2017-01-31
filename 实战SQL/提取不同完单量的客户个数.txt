@@ -1,0 +1,22 @@
+
+
+SELECT 
+a.sum_finished_order,
+count(passenger_id)
+
+FROM 
+(SELECT passenger_id,count(order_id) as sum_finished_order
+FROM dw_v_ order_base
+WHERE  concat_ws('-',year ,month ,day ) between '2016/12/1' and '2016/12/12'  
+   AND order_status = 5
+   AND type in (3,4)
+   AND city_id = 17
+GROUP BY passenger_id
+) a
+LEFT JOIN 
+dw_v_ order_base
+ON a.order_id = dw_v_ order_base.order_id
+
+GROUP BY a.sum_finished_order
+
+

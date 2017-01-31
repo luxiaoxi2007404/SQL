@@ -1,0 +1,16 @@
+SELECT online_date,
+       area,
+	   sum(case when (hour_07 + hour_08 + hour_09)>0 THEN 1 ELSE 0 END ) morning,
+	   sum(case when (hour_16 + hour_17 + hour_18 + hour_19 + hour_20 + hour_21 + hour_22 + hour_23)>0 THEN 1 ELSE 0 END ) night,
+	   sum(case when (hour_10+ hour_11+ hour_12+ hour_13+ hour_14+ hour_15)>0 THEN 1 ELSE 0 END ) noon
+	from gulfstream_ods.g_driver_online_hour_detail
+	where concat_ws('-',year,month,day)  between '${start_date}' and '${end_date}'
+	      and area = ${area}
+	      and a_status = 1
+	group by online_date,area
+	
+
+	
+ -- sum(case when hour_16>0 OR hour_17>0 OR hour_18>0 OR hour_19>0 OR hour_20>0 OR hour_21>0 OR hour_22>0 OR hour_23>0 THEN 1 ELSE 0 END ) night,
+ 
+ 

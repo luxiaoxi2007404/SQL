@@ -1,0 +1,72 @@
+
+模板名称:	司机分时段完成快车订单数及快车总完单	业务线:	快车
+模板列名:	司机ID,城市,日期,总完单,时段1完单,时段2完单,时段3完单,时段4完单,时段5完单,时段6完单,在线时长,累计历史完单（专车+快车）,司机注册地,合作模式,激活时间,车牌号
+模板说明:	司机分时段完成快车订单数、快车总完单数、在线时长（快车+专车）、历史累计完单数（快车+专车）
+模板内容:
+
+SELECT
+a.driver_id,
+a.city_id,
+'${data_from}~${data_to}' stat_date, --日期
+a.total_order,
+a.time1_finished,
+a.time2_finished,
+a.time3_finished,
+a.time4_finished,
+a.time5_finished,
+a.time6_finished,
+c.onlinetime,
+d.total_finish_count, --累计历史完单（专车+快车）
+b.driver_city_name, --司机注册地
+b.driver_join_model, --合作模式
+b.min_work_time, --激活时间
+b.driver_car_plate_no --车牌号
+
+FROM
+(SELECT 
+driver_id,--司机ID
+city_id,--城市
+concat_ws('-',year,month,day),--日期
+count(driver_id) total_order,--总完单
+count (CASE WHEN substr(a_create_time, 12, 5) between '2016/12/1/' and '2016/12/12' then 1 end) time1_finished,--时段1完单    ----细看下
+count (CASE WHEN substr(a_create_time, 12, 5) between '2016/12/1/' and '2016/12/12' then 1 end) time2_finished,--时段2完单
+count (CASE WHEN substr(a_create_time, 12, 5) between '2016/12/1/' and '2016/12/12' then 1 end) time3_finished,--时段3完单
+count (CASE WHEN substr(a_create_time, 12, 5) between '2016/12/1/' and '2016/12/12' then 1 end) time4_finished,--时段4完单
+count (CASE WHEN substr(a_create_time, 12, 5) between '2016/12/1/' and '2016/12/12' then 1 end) time5_finished,--时段5完单
+count (CASE WHEN substr(a_create_time, 12, 5) between '2016/12/1/' and '2016/12/12' then 1 end) time6_finished,--时段6完单
+FROM dw_v_order_base
+WHERE concat_ws('-',year,month,day) between '' and ''
+	AND order_status = 5
+	AND city_id in ()
+	AND product_id in (3,4)
+GROUP BY driver_id,city_name
+)a
+LEFT JOIN
+(select
+driver_id, --司机ID
+driver_city_name, --司机注册地
+driver_join_model, --合作模式
+min_work_time, --激活时间
+driver_car_plate_no --车牌号
+from gulfstream_dw.dw_v_driver_base
+where concat_ws('-',year,month,day)='${data_to}'
+) b
+on a.driver_id = b.driver_id
+LEFT JOIN
+(select
+driver_id, --司机ID
+sum(onlinetime) onlinetime --在线时长
+from gulfstream_dw.dw_m_driver_strategy
+where concat_ws('-',year,month,day) between '${data_from}' and '${data_to}'
+group by driver_id
+) c
+on a.driver_id = c.driver_id
+LEFT JOIN
+(select
+driver_id, --司机ID
+total_finish_count --累计完成订单数
+from gulfstream_dw.dw_m_driver_total
+where concat_ws('-',year,month,day)='${data_to}'
+AND total_finish_count is not null
+) d
+on a.driver_id = d.driver_id
