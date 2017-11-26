@@ -1,0 +1,720 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/1B7ADBF0/file6528.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3Dfile6528.htm>
+<link rel=3DFile-List href=3D"file6528.files/filelist.xml">
+</head>
+
+<body lang=3Dzh-CN style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.6791in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.075in;width:1.5687i=
+n'>
+
+<p style=3D'margin:0in;font-size:20.0pt'><span style=3D'font-family:"Calibr=
+i Light"'
+lang=3Den-US>json</span><span style=3D'font-family:"Microsoft YaHei"' lang=
+=3Dzh-CN>解析</span></p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0388in;margin-left:.075in;width:1.7=
+034in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:gray'><span style=3D'font-fam=
+ily:
+Calibri'>2017</span><span style=3D'font-family:"Microsoft YaHei"'>年</span=
+><span
+style=3D'font-family:Calibri'>11</span><span style=3D'font-family:"Microsof=
+t YaHei"'>月</span><span
+style=3D'font-family:Calibri'>9</span><span style=3D'font-family:"Microsoft=
+ YaHei"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:gray'>13:=
+08</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.1486in;margin-left:0in;width:7.6791=
+in'>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:16.0pt;color=
+:#1E4E79'>问题提出</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri'
+lang=3Den-US>json</span><span style=3D'font-family:"Microsoft YaHei"' lang=
+=3Dzh-CN>字符串里面埋点取的需要的数据，格式多样（</span=
+><span
+style=3D'font-family:Calibri' lang=3Den-US>list</span><span style=3D'font-f=
+amily:
+"Microsoft YaHei"' lang=3Dzh-CN>、</span><span style=3D'font-family:Calibr=
+i'
+lang=3Den-US>array</span><span style=3D'font-family:"Microsoft YaHei"' lang=
+=3Dzh-CN>、</span><span
+style=3D'font-family:Calibri' lang=3Den-US>map</span><span style=3D'font-fa=
+mily:"Microsoft YaHei"'
+lang=3Dzh-CN>），大体如下，分别针对不同的情况做解析。</=
+span></p>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>&nbs=
+p;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#595959'>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:16.0pt;color=
+:#1E4E79'>问题解答</p>
+
+<p style=3D'margin:0in;font-size:12.0pt;color:#5B9BD5'><span style=3D'font-=
+family:
+Calibri' lang=3Den-US>1</span><span style=3D'font-family:"Microsoft YaHei"'
+lang=3Dzh-CN>、解析</span><span style=3D'font-family:Calibri' lang=3Den-=
+US>value1</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt'>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.4034in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>Value1</span><span style=3D'font-family:"Microsoft YaHei"'
+  lang=3Dzh-CN>：</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>{</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>    </span>&quot;pageid&quot;:&quot;booking=
+&quot;,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>    </span>&quot;cityID&quot;:&quot;120&quo=
+t;,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>    </span>&quot;show&quot;:{</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>        </span>&quot;showSpecial&quot;:=
+false,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>        </span>&quot;PassengerNum&quot;=
+:2,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>        </span>&quot;Passenger&quot;:[<=
+/p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>            </span>&quot;1_20171112=
+&quot;,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>            </span>&quot;2_20171113=
+&quot;</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>        </span>],</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>        </span>&quot;PassengerType&quot=
+;:{</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>            </span>&quot;Adult&quot=
+;:2,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>            </span>&quot;Children&q=
+uot;:0,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>            </span>&quot;Infant&quo=
+t;:0</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>        </span>}</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>    </span>}</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>}</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.4034in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'
+  lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
+n-US>presto</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Dzh-CN>select json_extract_scalar(value1,'$.pageid') as pageid</spa=
+n><span
+  style=3D'font-family:Calibri' lang=3Den-US><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>-- </span><span style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-=
+CN>解析</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>list</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Dzh-CN><span style=3D'mso-spacerun:yes'>     </span></span><span
+  style=3D'font-family:Calibri' lang=3Den-US><span
+  style=3D'mso-spacerun:yes'>       </span></span><span style=3D'fon=
+t-family:Calibri'
+  lang=3Dzh-CN><span
+  style=3D'mso-spacerun:yes'> </span>,json_extract_scalar(value1,'$.show.s=
+howSpecial')
+  as showspecial</span><span style=3D'font-family:Calibri' lang=3Den-US><sp=
+an
+  style=3D'mso-spacerun:yes'>   </span>-- </span><span style=3D'font-fami=
+ly:"Microsoft YaHei"'
+  lang=3Dzh-CN>解析子</span><span style=3D'font-family:"Microsoft YaHei"=
+' lang=3Den-US>list</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=
+=3Den-US><span
+  style=3D'mso-spacerun:yes'>           </span></span><span lang=
+=3Dzh-CN><span
+  style=3D'mso-spacerun:yes'>  </span>,json_extract_scalar(value1,'$.show=
+.PassengerType.Adult')
+  as adult</span><span lang=3Den-US><span style=3D'mso-spacerun:yes'>  </s=
+pan></span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-size:11.0pt'><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN><span style=3D'mso-spacerun:ye=
+s'> 
+  </span>,json_extract_scalar(value1,'$.show.Passenger[0]') as passenger0</=
+span><span
+  style=3D'font-family:Calibri' lang=3Den-US><span style=3D'mso-spacerun:ye=
+s'> 
+  </span>-- </span><span style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-=
+CN>解析数组</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-size:11.0pt'><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US><span
+  style=3D'mso-spacerun:yes'> </span></span><span style=3D'font-family:Cal=
+ibri'
+  lang=3Dzh-CN>,json_array_get(value1,'$.show.Passenger'),0)</span><span
+  style=3D'font-family:Calibri' lang=3Den-US> as </span><span style=3D'font=
+-family:
+  Calibri' lang=3Dzh-CN>passenger0</span><span style=3D'font-family:Calibri'
+  lang=3Den-US><span style=3D'mso-spacerun:yes'>  </span></span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>from table</=
+p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.4034in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'
+  lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
+n-US>hive</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Dzh-CN>select </span><span style=3D'font-family:Calibri' lang=3Den-=
+US><span
+  style=3D'mso-spacerun:yes'> </span>get_json_object</span><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN>(value1,'$.pageid') as pageid<=
+/span><span
+  style=3D'font-family:Calibri' lang=3Den-US><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>-- </span><span style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-=
+CN>解析</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>list</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Dzh-CN><span style=3D'mso-spacerun:yes'>     </span></span><span
+  style=3D'font-family:Calibri' lang=3Den-US><span
+  style=3D'mso-spacerun:yes'>      </span></span><span style=3D'font-=
+family:Calibri'
+  lang=3Dzh-CN>,</span><span style=3D'font-family:Calibri' lang=3Den-US>get=
+_json_object</span><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN>(value1,'$.show.showSpecial') =
+as
+  showspecial</span><span style=3D'font-family:Calibri' lang=3Den-US><span
+  style=3D'mso-spacerun:yes'>   </span>-- </span><span style=3D'font-fami=
+ly:"Microsoft YaHei"'
+  lang=3Dzh-CN>解析子</span><span style=3D'font-family:"Microsoft YaHei"=
+' lang=3Den-US>list</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=
+=3Den-US><span
+  style=3D'mso-spacerun:yes'>           </span></span><span lang=
+=3Dzh-CN>,</span><span
+  lang=3Den-US>get_json_object</span><span lang=3Dzh-CN>(value1,'$.show.Pas=
+sengerType.Adult')
+  as adult</span><span lang=3Den-US><span style=3D'mso-spacerun:yes'>  </s=
+pan></span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-size:11.0pt'><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN>,</span><span style=3D'font-fa=
+mily:Calibri'
+  lang=3Den-US>get_json_object</span><span style=3D'font-family:Calibri'
+  lang=3Dzh-CN>(value1,'$.show.Passenger[0]') as passenger0</span><span
+  style=3D'font-family:Calibri' lang=3Den-US><span style=3D'mso-spacerun:ye=
+s'> 
+  </span>-- </span><span style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-=
+CN>解析数组</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>from table</=
+p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-size:12.0pt;color:#5B9BD5'><span style=3D'font-=
+family:
+Calibri' lang=3Den-US>2</span><span style=3D'font-family:"Microsoft YaHei"'
+lang=3Dzh-CN>、解析</span><span style=3D'font-family:Calibri' lang=3Den-=
+US>value2</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt'>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.5791in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:10.0pt'><s=
+pan
+  lang=3Den-US>Value2</span><span lang=3Dzh-CN>：</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>{</p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'font-family:Calibri'>&quot;pageid&quot;:&quot;8890&quot;,</span>=
+</p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'font-family:Calibri'>&quot;cityid&quot;:&quot;1202&quot;,</span>=
+</p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'font-family:Calibri'>&quot;Ods&quot;:&quot;[{&quot;CPType&quot;:=
+&quot;</span><span
+  style=3D'font-family:"Microsoft YaHei"'>优质</span><span style=3D'font-=
+family:Calibri'>&quot;,&quot;CPid&quot;:&quot;738&quot;,&quot;To&quot;:{&qu=
+ot;CityId&quot;:&quot;43&quot;,&quot;cityCode&quot;:&quot;SYX&quot;,&quot;C=
+ityName&quot;:&quot;</span><span
+  style=3D'font-family:"Microsoft YaHei"'>三亚</span><span style=3D'font-=
+family:Calibri'>&quot;,&quot;CityCode&quot;:&quot;SYX&quot;},&quot;From&quo=
+t;:{&quot;CityId&quot;:&quot;491&quot;,&quot;cityCode&quot;:&quot;WNZ&quot;=
+,&quot;CityName&quot;:&quot;</span><span
+  style=3D'font-family:"Microsoft YaHei"'>温州</span><span style=3D'font-=
+family:Calibri'>&quot;,&quot;CityCode&quot;:&quot;WNZ&quot;}}]&quot;,</span=
+></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+  style=3D'font-family:Calibri'>&quot;PassengerType&quot;:&quot;{&quot;Infa=
+nt&quot;:&quot;1&quot;,&quot;Adult&quot;:&quot;1&quot;,&quot;Children&quot;=
+:&quot;0&quot;}&quot;</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>}</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.5791in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'
+  lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
+n-US>presto</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Dzh-CN>select </span><span style=3D'font-family:Calibri' lang=3Den-=
+US><span
+  style=3D'mso-spacerun:yes'> </span></span><span style=3D'font-family:Cal=
+ibri'
+  lang=3Dzh-CN>json_extract_scalar(value1,'$.pageid') as pageid</span><span
+  style=3D'font-family:Calibri' lang=3Den-US><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>-- </span><span style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-=
+CN>解析</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>list</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Dzh-CN><span style=3D'mso-spacerun:yes'>     </span></span><span
+  style=3D'font-family:Calibri' lang=3Den-US><span
+  style=3D'mso-spacerun:yes'>       </span></span><span style=3D'fon=
+t-family:Calibri'
+  lang=3Dzh-CN><span
+  style=3D'mso-spacerun:yes'> </span>,json_extract_scalar(value1,'$.Passen=
+gerType.Infant')
+  as </span><span style=3D'font-family:Calibri' lang=3Den-US>i</span><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN>nfant</span><span style=3D'fon=
+t-family:
+  Calibri' lang=3Den-US><span style=3D'mso-spacerun:yes'>  </span>-- </spa=
+n><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>解析子</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>list</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-size:11.0pt'><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN><span style=3D'mso-spacerun:ye=
+s'> 
+  </span>,</span><span style=3D'font-family:Calibri' lang=3Den-US>json_extr=
+act_scalar(</span><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN>json_extract_scalar(value1,'$.=
+</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>Ods</span><span style=3D'font-=
+family:
+  Calibri' lang=3Dzh-CN>')</span><span style=3D'font-family:Calibri' lang=
+=3Den-US>,'$[0].</span><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN>CPType</span><span style=3D'fo=
+nt-family:
+  Calibri' lang=3Den-US>')</span><span style=3D'font-family:Calibri' lang=
+=3Dzh-CN> as
+  </span><span style=3D'font-family:Calibri' lang=3Den-US>cptype<span
+  style=3D'mso-spacerun:yes'>  </span>-- </span><span style=3D'font-family=
+:"Microsoft YaHei"'
+  lang=3Dzh-CN>解析数组</span><span style=3D'font-family:Calibri' lang=
+=3Den-US> </span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>from table</=
+p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.5791in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'
+  lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
+n-US>hive</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Dzh-CN>select </span><span style=3D'font-family:Calibri' lang=3Den-=
+US><span
+  style=3D'mso-spacerun:yes'>  </span>get_json_object</span><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN>(value1,'$.pageid') as pageid<=
+/span><span
+  style=3D'font-family:Calibri' lang=3Den-US><span style=3D'mso-spacerun:ye=
+s'>   
+  </span>-- </span><span style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-=
+CN>解析</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>list</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Dzh-CN><span style=3D'mso-spacerun:yes'>     </span></span><span
+  style=3D'font-family:Calibri' lang=3Den-US><span
+  style=3D'mso-spacerun:yes'>       </span></span><span style=3D'fon=
+t-family:Calibri'
+  lang=3Dzh-CN><span style=3D'mso-spacerun:yes'> </span></span><span
+  style=3D'font-family:Calibri' lang=3Den-US>,get_json_objec</span><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN>(value1,'$.PassengerType.Infan=
+t') as </span><span
+  style=3D'font-family:Calibri' lang=3Den-US>i</span><span style=3D'font-fa=
+mily:Calibri'
+  lang=3Dzh-CN>nfant</span><span style=3D'font-family:Calibri' lang=3Den-US=
+><span
+  style=3D'mso-spacerun:yes'>  </span>-- </span><span style=3D'font-family=
+:"Microsoft YaHei"'
+  lang=3Dzh-CN>解析子</span><span style=3D'font-family:"Microsoft YaHei"=
+' lang=3Den-US>list</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=
+=3Den-US><span
+  style=3D'mso-spacerun:yes'>             </span>,</span><span =
+lang=3Dzh-CN>get_json_object(concat('{&quot;</span><span
+  lang=3Den-US>ods</span><span lang=3Dzh-CN>&quot;:',get_json_object(exdata=
+,'$.Sequence'),'}'),'$.</span><span
+  lang=3Den-US>ods</span><span lang=3Dzh-CN>[0].</span><span lang=3Den-US>C=
+PType</span><span
+  lang=3Dzh-CN>') as </span><span lang=3Den-US>cp</span><span lang=3Dzh-CN>=
+type</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>from table</=
+p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-size:12.0pt;color:#5B9BD5'><span style=3D'font-=
+family:
+Calibri' lang=3Den-US>3</span><span style=3D'font-family:"Microsoft YaHei"'
+lang=3Dzh-CN>、解析</span><span style=3D'font-family:Calibri' lang=3Den-=
+US>value</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>3</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt'>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.5451in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Value3:</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>{</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>    </span>pageid=3D110,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>    </span>data=3D{</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>        </span>newdata=3D{</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>            </span>&quot;cityid&quo=
+t;:
+  &quot;104&quot;,</p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Dzh-CN><span style=3D'mso-spacerun:yes'>           
+  </span>&quot;cptype&quot;: &quot;</span><span style=3D'font-family:"Micro=
+soft YaHei"'
+  lang=3Dzh-CN>优质</span><span style=3D'font-family:Calibri' lang=3Den-U=
+S>&quot;,</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>            </span>&quot;basicinfo&=
+quot;: {</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>                </span>&quot;sy=
+scode&quot;:
+  &quot;32&quot;,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>                </span>&quot;ui=
+d&quot;:
+  &quot;lxx_201&quot;,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>                </span>&quot;oi=
+d&quot;: [</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>                    </span>=
+5103556354</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>                </span>]</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>            </span>}</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>        </span>}</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>    </span>}</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>}</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.5451in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'
+  lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
+n-US>presto</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Dzh-CN>select custom.data['ubtdata']</span><span style=3D'font-fami=
+ly:Calibri'
+  lang=3Den-US><span style=3D'mso-spacerun:yes'>    </span>-- </span><sp=
+an
+  style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>解析</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>map</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US><span style=3D'mso-spacerun:yes'>          </span><=
+/span><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN>,json_extract_scalar(</span><s=
+pan
+  style=3D'font-family:Calibri' lang=3Den-US>value3</span><span style=3D'fo=
+nt-family:
+  Calibri' lang=3Dzh-CN>.data['</span><span style=3D'font-family:Calibri'
+  lang=3Den-US>new</span><span style=3D'font-family:Calibri' lang=3Dzh-CN>d=
+ata'],'$.</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>cityid</span><span style=3D'fo=
+nt-family:
+  Calibri' lang=3Dzh-CN>') as </span><span style=3D'font-family:Calibri'
+  lang=3Den-US>cityid<span style=3D'mso-spacerun:yes'>    </span>--</spa=
+n><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US> map</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>套</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>json</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=
+=3Dzh-CN>from
+  </span><span lang=3Den-US>table</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:7.5451in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'
+  lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
+n-US>hive</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Dzh-CN>select custom.data['ubtdata']</span><span style=3D'font-fami=
+ly:Calibri'
+  lang=3Den-US><span style=3D'mso-spacerun:yes'>    </span>-- </span><sp=
+an
+  style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>解析</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>map</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US><span style=3D'mso-spacerun:yes'>          </span><=
+/span><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN>,</span><span style=3D'font-fa=
+mily:Calibri'
+  lang=3Den-US>get_json_object</span><span style=3D'font-family:Calibri'
+  lang=3Dzh-CN>(</span><span style=3D'font-family:Calibri' lang=3Den-US>val=
+ue3</span><span
+  style=3D'font-family:Calibri' lang=3Dzh-CN>.data['</span><span style=3D'f=
+ont-family:
+  Calibri' lang=3Den-US>new</span><span style=3D'font-family:Calibri' lang=
+=3Dzh-CN>data'],'$.</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>cityid</span><span style=3D'fo=
+nt-family:
+  Calibri' lang=3Dzh-CN>') as </span><span style=3D'font-family:Calibri'
+  lang=3Den-US>cityid<span style=3D'mso-spacerun:yes'>    </span>--</spa=
+n><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US> map</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>套</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>json</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=
+=3Dzh-CN>from
+  </span><span lang=3Den-US>table</span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-size:12.0pt;color:#5B9BD5'><span style=3D'font-=
+family:
+Calibri' lang=3Den-US>4</span><span style=3D'font-family:"Microsoft YaHei"'
+lang=3Dzh-CN>、解析</span><span style=3D'font-family:Calibri' lang=3Den-=
+US>map</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt'>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.6416in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>Value4:</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>{appVersion=
+=3D7.8.0,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'> </span>os=3DiOS,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'> </span>city=3DUnknown,</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=
+=3Den-US><span
+  style=3D'mso-spacerun:yes'> </span></span><span lang=3Dzh-CN>screen=3D12=
+42*2208,</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'> </span>deviceName=3DiPhone9}</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.7104in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'
+  lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
+n-US>presto</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>select
+  env['appVersion']</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>from
+  dw_fltlogdata.factmbtracelog_sdk</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-size:12.0pt;color:#5B9BD5'><span style=3D'font-=
+family:
+Calibri' lang=3Den-US>5</span><span style=3D'font-family:"Microsoft YaHei"'
+lang=3Dzh-CN>、直接解析数组</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt'>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.843in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>Value</span><span style=3D'font-family:"Microsoft YaHei"'
+  lang=3Den-US>5</span><span style=3D'font-family:"Microsoft YaHei"' lang=
+=3Dzh-CN>：</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>[2469865,5623547,5865423]</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.843in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'
+  lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
+n-US>presto</span></p>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+  lang=3Den-US>select json_extract_scalar(orderid,'$[0]') as orderid</p>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+  lang=3Den-US>from table</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.9118in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'
+  lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
+n-US>hive</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>select
+  title_new,default,choose,ord</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>from </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+  style=3D'mso-spacerun:yes'>    </span>(select *</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=
+=3Den-US><span
+  style=3D'mso-spacerun:yes'>     </span></span><span lang=3Dzh-CN>from=
+ </span><span
+  lang=3Den-US>table)t</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>lateral view
+  explode(split(regexp_replace(orderid, '<a href=3D"file://[|/%5d">\\[|\\]<=
+/a>',
+  ''), ',')) m as ord </p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:16.0pt;color=
+:#1E4E79'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:16.0pt;color:#1E4E79'>=
+&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>已使用 Microsoft OneNote 2016 创建。</p>
+
+</div>
+
+</body>
+
+</html>
