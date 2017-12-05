@@ -19,7 +19,7 @@ xmlns=3D"http://www.w3.org/TR/REC-html40">
 
 <div style=3D'direction:ltr;border-width:100%'>
 
-<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.6791in'>
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:7.625in'>
 
 <div style=3D'direction:ltr;margin-top:0in;margin-left:.075in;width:1.5687i=
 n'>
@@ -48,8 +48,8 @@ style=3D'font-family:Calibri'>9</span><span style=3D'font-family:"Microsoft=
 
 </div>
 
-<div style=3D'direction:ltr;margin-top:.1486in;margin-left:0in;width:7.6791=
-in'>
+<div style=3D'direction:ltr;margin-top:.1486in;margin-left:0in;width:7.625i=
+n'>
 
 <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:16.0pt;color=
 :#1E4E79'>问题提出</p>
@@ -69,8 +69,8 @@ mily:"Microsoft YaHei"'
 lang=3Dzh-CN>），大体如下，分别针对不同的情况做解析。</=
 span></p>
 
-<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>&nbs=
-p;</p>
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+&nbsp;</p>
 
 <p style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#595959'>&=
 nbsp;</p>
@@ -278,7 +278,7 @@ dth:
  1pt'>
  <tr>
   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:7.5791in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  vertical-align:top;width:6.484in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:10.0pt'><s=
 pan
   lang=3Den-US>Value2</span><span lang=3Dzh-CN>：</span></p>
@@ -316,7 +316,7 @@ nt&quot;:&quot;1&quot;,&quot;Adult&quot;:&quot;1&quot;,&quot;Children&quot;=
  </tr>
  <tr>
   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:7.5791in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  vertical-align:top;width:6.5104in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
 osoft YaHei"'
   lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
@@ -375,7 +375,7 @@ p>
  </tr>
  <tr>
   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:7.5791in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  vertical-align:top;width:6.484in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
 osoft YaHei"'
   lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
@@ -592,7 +592,7 @@ dth:
  1pt'>
  <tr>
   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:2.6416in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  vertical-align:top;width:2.6381in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
 >Value4:</p>
   <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>{appVersion=
@@ -611,15 +611,37 @@ dth:
  </tr>
  <tr>
   <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
-  vertical-align:top;width:2.7104in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  vertical-align:top;width:2.6381in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
   <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
 osoft YaHei"'
   lang=3Dzh-CN>代码：</span><span style=3D'font-family:Calibri' lang=3De=
 n-US>presto</span></p>
   <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>select
   env['appVersion']</p>
-  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>from
-  dw_fltlogdata.factmbtracelog_sdk</p>
+  <p style=3D'margin:0in;font-size:11.0pt' lang=3Den-US><span style=3D'font=
+-family:
+  Calibri'>From table</span><span style=3D'font-family:"Microsoft YaHei"'>1=
+</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:2.7076in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micr=
+osoft YaHei"'
+  lang=3Dzh-CN>若某字段仅有一部分记录中有，用</span><span st=
+yle=3D'font-family:Calibri'
+  lang=3Den-US>try</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=
+=3Den-US>select<span
+  style=3D'mso-spacerun:yes'>   </span>try(</span><span lang=3Dzh-CN>env<=
+/span><span
+  lang=3Den-US>['</span><span lang=3Dzh-CN>appVersion</span><span lang=3Den=
+-US>'])</span></p>
+  <p style=3D'margin:0in;font-size:11.0pt' lang=3Den-US><span style=3D'font=
+-family:
+  Calibri'>From table</span><span style=3D'font-family:"Microsoft YaHei"'>1=
+</span></p>
   </td>
  </tr>
 </table>
@@ -691,7 +713,8 @@ n-US>hive</span></p>
 </div>
 
 <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:16.0pt;color=
-:#1E4E79'>&nbsp;</p>
+:#1E4E79'
+lang=3Dx-none>&nbsp;</p>
 
 <p style=3D'margin:0in;font-family:Calibri;font-size:16.0pt;color:#1E4E79'>=
 &nbsp;</p>
