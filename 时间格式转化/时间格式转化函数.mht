@@ -1,0 +1,431 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/B1FCFD10/file7088.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3Dfile7088.htm>
+<link rel=3DFile-List href=3D"file7088.files/filelist.xml">
+</head>
+
+<body lang=3Dzh-CN style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:8.7347in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.2in;width:2.7743in'>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:20.0pt'>时�=
+��格式转化函数</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0388in;margin-left:.2in;width:1.773=
+6in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:gray'><span style=3D'font-fam=
+ily:
+Calibri'>2017</span><span style=3D'font-family:"Microsoft YaHei"'>年</span=
+><span
+style=3D'font-family:Calibri'>11</span><span style=3D'font-family:"Microsof=
+t YaHei"'>月</span><span
+style=3D'font-family:Calibri'>21</span><span style=3D'font-family:"Microsof=
+t YaHei"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:gray'>15:=
+34</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.2243in;margin-left:0in;width:8.7347=
+in'>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:16.0pt;color=
+:#1E4E79'>问题提出</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:"Micros=
+oft YaHei"'
+lang=3Dzh-CN>数据库中时间落库有可能为标准时间格式（</spa=
+n><span style=3D'font-family:Calibri'
+lang=3Den-US>2017-08-30 10:36:15</span><span style=3D'font-family:"Microsof=
+t YaHei"'
+lang=3Dzh-CN>），毫秒格式（</span><span style=3D'font-family:Calibri=
+' lang=3Den-US>'2017-08-30
+10:36:15.000</span><span style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-=
+CN>），</span><span
+style=3D'font-family:Calibri' lang=3Den-US>unix</span><span style=3D'font-f=
+amily:
+"Microsoft YaHei"' lang=3Dzh-CN>时间戳</span><span style=3D'font-family:=
+Calibri'
+lang=3Den-US>10</span><span style=3D'font-family:"Microsoft YaHei"' lang=3D=
+zh-CN>位格式</span><span
+style=3D'font-family:Calibri' lang=3Den-US>(1510284058)</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>，</span><span
+style=3D'font-family:Calibri' lang=3Den-US>unix</span><span style=3D'font-f=
+amily:
+"Microsoft YaHei"' lang=3Dzh-CN>时间戳</span><span style=3D'font-family:=
+Calibri'
+lang=3Den-US>13</span><span style=3D'font-family:"Microsoft YaHei"' lang=3D=
+zh-CN>位格式</span><span
+style=3D'font-family:Calibri' lang=3Den-US>(1510284058123)</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>，需要了解不同�=
+��间格式之间的转化方式。</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:9.0pt;color:#595959'>&=
+nbsp;</p>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:16.0pt;color=
+:#1E4E79'>问题解答</p>
+
+<p style=3D'margin:0in;font-size:12.0pt;color:#5B9BD5'><span style=3D'font-=
+family:
+Calibri' lang=3Den-US>1</span><span style=3D'font-family:"Microsoft YaHei"'
+lang=3Dzh-CN>、北京时间格式</span><span style=3D'font-family:"Micros=
+oft YaHei"'
+lang=3Den-US><span style=3D'mso-spacerun:yes'>   </span>to<span
+style=3D'mso-spacerun:yes'>   </span></span><span style=3D'font-family:Ca=
+libri'
+lang=3Den-US>unix</span><span style=3D'font-family:"Microsoft YaHei"' lang=
+=3Dzh-CN>时间格式</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt'>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.8444in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�据格式：</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2017-11-17
+  08:28:13</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>2017-11-17
+  08:28:10</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=
+=3Dx-none>2017-11-17
+  08:27:51</span><span lang=3Den-US>.343</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=
+=3Dx-none>2017-11-17
+  08:27:48</span><span lang=3Den-US>.021</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.8444in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>presto</span><span style=3D'font-family:"Microsoft YaHei"'
+  lang=3Dzh-CN>单个标准时间转化（</span><span style=3D'font-family=
+:Calibri' lang=3Den-US>10</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>位</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>unix</span><span style=3D'font=
+-family:
+  "Microsoft YaHei"' lang=3Dzh-CN>）：</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Den-US>select to_unixtime(cast ('2017-08-30 10:36:15' as timestamp)=
+)<span
+  style=3D'mso-spacerun:yes'>    </span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>hive</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>单个标准时间转化（</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>10</span><span style=3D'font-f=
+amily:
+  "Microsoft YaHei"' lang=3Dzh-CN>位</span><span style=3D'font-family:Cali=
+bri'
+  lang=3Den-US>unix</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>）：</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Den-US>select unix_timestamp(cast ('2017-08-30 10:36:15' as timesta=
+mp))</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.8444in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>presto</span><span style=3D'font-family:"Microsoft YaHei"'
+  lang=3Dzh-CN>单个毫秒时间转化（</span><span style=3D'font-family=
+:Calibri' lang=3Den-US>13</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>位</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>unix</span><span style=3D'font=
+-family:
+  "Microsoft YaHei"' lang=3Dzh-CN>）：</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Den-US>select to_unixtime(cast ('2017-12-01 16:42:08.771' as timest=
+amp)) </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>hive</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>单个毫秒时间转化（自动转为</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>10</span><span style=3D'font-f=
+amily:
+  "Microsoft YaHei"' lang=3Dzh-CN>位</span><span style=3D'font-family:Cali=
+bri'
+  lang=3Den-US>unix</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>）：</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Den-US>select unix_timestamp(cast ('2017-12-01 16:42:08.771' as
+  timestamp))</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:5.8444in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>presto</span><span style=3D'font-family:"Microsoft YaHei"'
+  lang=3Dzh-CN>变量转化（根据时间格式分别转化为</span><span=
+ style=3D'font-family:Calibri'
+  lang=3Den-US>10</span><span style=3D'font-family:"Microsoft YaHei"' lang=
+=3Dzh-CN>位</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>unix</span><span style=3D'font=
+-family:
+  "Microsoft YaHei"' lang=3Dzh-CN>、</span><span style=3D'font-family:Cali=
+bri'
+  lang=3Den-US>13</span><span style=3D'font-family:"Microsoft YaHei"' lang=
+=3Dzh-CN>位</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>unix</span><span style=3D'font=
+-family:
+  "Microsoft YaHei"' lang=3Dzh-CN>）：</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Dx-none>select to_unixtime(cast (time as timestamp))<span
+  style=3D'mso-spacerun:yes'>   </span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-size:11.0pt' lang=3Den-US>=
+<span
+  style=3D'font-family:Calibri'>from table</span><span style=3D'font-family=
+:"Microsoft YaHei"'>1</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>hive</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>变量转化（只能自动转化为</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>10</span><span style=3D'font-f=
+amily:
+  "Microsoft YaHei"' lang=3Dzh-CN>位</span><span style=3D'font-family:Cali=
+bri'
+  lang=3Den-US>unix</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>）：</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'><span
+  lang=3Dx-none>select unix_timestamp(cast (time as timestamp))<span
+  style=3D'mso-spacerun:yes'>  </span></span><span lang=3Den-US><span
+  style=3D'mso-spacerun:yes'> </span></span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-size:11.0pt'><span
+  style=3D'font-family:Calibri' lang=3Dx-none>from </span><span style=3D'fo=
+nt-family:
+  Calibri' lang=3Den-US>table</span><span style=3D'font-family:"Microsoft Y=
+aHei"'
+  lang=3Den-US>1</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Dx-none>where d =3D '2017-12-05'</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-size:12.0pt;color:#5B9BD5'><span style=3D'font-=
+family:
+Calibri' lang=3Den-US>2</span><span style=3D'font-family:"Microsoft YaHei"'
+lang=3Dzh-CN>、</span><span style=3D'font-family:Calibri' lang=3Den-US>uni=
+x</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>时间格式</span><sp=
+an
+style=3D'font-family:Calibri' lang=3Den-US><span style=3D'mso-spacerun:yes'=
+>  
+</span>to<span style=3D'mso-spacerun:yes'>  </span></span><span style=3D'f=
+ont-family:
+"Microsoft YaHei"' lang=3Dzh-CN>北京时间格式</span></p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt'>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:6.8027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�据格式：</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>1510894478</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>1510855235</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>1510855290929</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>1510873252377</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:6.8027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>presto</span><span style=3D'font-family:"Microsoft YaHei"'
+  lang=3Dzh-CN>单个</span><span style=3D'font-family:Calibri' lang=3Den-U=
+S>10</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>位</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>unix</span><span style=3D'font=
+-family:
+  "Microsoft YaHei"' lang=3Dzh-CN>（变为标准格式）：</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Den-US>select format_datetime(from_unixtime(1510284058),'yyyy-MM-dd
+  HH:mm:ss')<span style=3D'mso-spacerun:yes'>   </span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>hive</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>单个</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>10</span><span style=3D'font-f=
+amily:
+  "Microsoft YaHei"' lang=3Dzh-CN>位</span><span style=3D'font-family:Cali=
+bri'
+  lang=3Den-US>unix</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>（变为标准格式）：</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Den-US>select from_unixtime(1323308943123,'yyyy-MM-dd HH:mm:ss')</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:6.8027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>presto</span><span style=3D'font-family:"Microsoft YaHei"'
+  lang=3Dzh-CN>单个</span><span style=3D'font-family:Calibri' lang=3Den-U=
+S>13</span><span
+  style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>位</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>unix</span><span style=3D'font=
+-family:
+  "Microsoft YaHei"' lang=3Dzh-CN>（毫秒格式）：</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Den-US>select format_datetime(from_unixtime(1510284058.415),'yyyy-M=
+M-dd
+  HH:mm:ss.mmm')</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>hive</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>单个</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>13</span><span style=3D'font-f=
+amily:
+  "Microsoft YaHei"' lang=3Dzh-CN>位</span><span style=3D'font-family:Cali=
+bri'
+  lang=3Den-US>unix</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>（毫秒格式）：手动截取</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>10</span><span style=3D'font-f=
+amily:
+  "Microsoft YaHei"' lang=3Dzh-CN>位</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Den-US>select from_unixtime(cast(substr(1323308943123,1,10) as
+  int),'yyyy-MM-dd HH:mm:ss')</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:6.8027in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>Presto<span style=3D'mso-spacerun:yes'>  </span>13</span><s=
+pan
+  style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>、</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>10</span><span style=3D'font-f=
+amily:
+  "Microsoft YaHei"' lang=3Dzh-CN>位</span><span style=3D'font-family:Cali=
+bri'
+  lang=3Den-US>unix</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>变量转化（只能截取成</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>10</span><span style=3D'font-f=
+amily:
+  "Microsoft YaHei"' lang=3Dzh-CN>位转化成标准格式）：</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'><span
+  lang=3Dx-none>select format_datetime(from_unixtime(cast(substr(ts,1,10) as
+  double)),'yyyy-MM-dd HH:mm:ss')<span style=3D'mso-spacerun:yes'>  </span=
+></span><span
+  lang=3Den-US>from dw_fltlogdata.factmbtracelog_hybrid</span></p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>hive</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>变量转化（事先截取</span><span
+  style=3D'font-family:Calibri' lang=3Den-US>10</span><span style=3D'font-f=
+amily:
+  "Microsoft YaHei"' lang=3Dzh-CN>位</span><span style=3D'font-family:Cali=
+bri'
+  lang=3Den-US>unix</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>）：</span></p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Dx-none>select from_unixtime(cast(substr(ts,1,10) as int),'yyyy-MM-=
+dd
+  HH:mm:ss')</p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Dx-none>from dw_fltlogdata.factmbtracelog_hybrid</p>
+  <p style=3D'margin:0in;margin-left:.375in;font-family:Calibri;font-size:1=
+1.0pt'
+  lang=3Dx-none>where d =3D '2017-12-05'</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+lang=3Dx-none>&nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>已使用 Microsoft OneNote 2016 创建。</p>
+
+</div>
+
+</body>
+
+</html>
