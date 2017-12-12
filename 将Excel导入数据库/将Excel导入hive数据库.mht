@@ -1,0 +1,155 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/DB350C53/file6867.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3Dfile6867.htm>
+<link rel=3DFile-List href=3D"file6867.files/filelist.xml">
+</head>
+
+<body lang=3Dzh-CN style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:5.9763in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:3.2527in'>
+
+<p style=3D'margin:0in;font-size:20.0pt'><span style=3D'font-family:"Micros=
+oft YaHei"'
+lang=3Dzh-CN>将</span><span style=3D'font-family:"Calibri Light"' lang=3De=
+n-US>Excel</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>导入</span><span
+style=3D'font-family:"Calibri Light"' lang=3Den-US>hive</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>数据库</span></p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0388in;margin-left:0in;width:1.7034=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:gray'><span style=3D'font-fam=
+ily:
+Calibri'>2017</span><span style=3D'font-family:"Microsoft YaHei"'>年</span=
+><span
+style=3D'font-family:Calibri'>12</span><span style=3D'font-family:"Microsof=
+t YaHei"'>月</span><span
+style=3D'font-family:Calibri'>8</span><span style=3D'font-family:"Microsoft=
+ YaHei"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:gray'>15:=
+30</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.1486in;margin-left:0in;width:5.9763=
+in'>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>-- </span><span
+style=3D'font-family:"Microsoft YaHei"'>创建空表</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>hive -e&quot;<=
+/p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>use tmp_fltdb;=
+<span
+style=3D'mso-spacerun:yes'>                        =
+                             
+</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>drop table if =
+exists
+tmp_fltdb.rule2_e; </p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>create table
+tmp_fltdb.rule2_e (</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'mso-spacerun:yes'>  </span>code string,</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'mso-spacerun:yes'>  </span>title string</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span
+style=3D'mso-spacerun:yes'>  </span>)</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>row format del=
+imited</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>fields termina=
+ted by
+'\t'</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>lines terminat=
+ed by
+'\n'</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>stored as text=
+file;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&quot;</p>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+lang=3Dx-none>&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>-- </span><span
+style=3D'font-family:"Microsoft YaHei"'>上传文件产生的链接</span><=
+/p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>download[hdfs:=
+///zeus/hdfs-upload-dir/A.txt-20170913-181757.txt
+A.txt]</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>hive -e&quot;<=
+/p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>use tmp_fltdb;=
+</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>load data local
+inpath './A.txt' overwrite into table tmp_fltdb.rule2_a;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&quot;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri=
+'>-- </span><span
+style=3D'font-family:"Microsoft YaHei"'>修改中文的编码方式（有�=
+�些问题）</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>hive -e&quot;<=
+/p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>ALTER TABLE
+tmp_fltdb.rule2_a SET SERDEPROPERTIES ('serialization.encoding'=3D'GBK'); <=
+/p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'>&quot;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>已使用 Microsoft OneNote 2016 创建。</p>
+
+</div>
+
+</body>
+
+</html>
