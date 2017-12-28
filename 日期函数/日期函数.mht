@@ -1,0 +1,606 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/5AE9A110/file0560.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3Dfile0560.htm>
+<link rel=3DFile-List href=3D"file0560.files/filelist.xml">
+</head>
+
+<body lang=3Dzh-CN style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:11.7527in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:.075in;width:1.6631i=
+n'>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:20.0pt'>日�=
+��函数</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0388in;margin-left:.075in;width:1.7=
+034in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:gray'><span style=3D'font-fam=
+ily:
+Calibri'>2017</span><span style=3D'font-family:"Microsoft YaHei"'>年</span=
+><span
+style=3D'font-family:Calibri'>12</span><span style=3D'font-family:"Microsof=
+t YaHei"'>月</span><span
+style=3D'font-family:Calibri'>8</span><span style=3D'font-family:"Microsoft=
+ YaHei"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:gray'>15:=
+09</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4743in;margin-left:0in;width:11.752=
+7in'>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:14.0pt;color=
+:#2E75B5'>问题提出</p>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>对�=
+��期的格式做各种转化</p>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:14.0pt;color=
+:#2E75B5'>问题解答</p>
+
+<div style=3D'direction:ltr'>
+
+<table border=3D1 cellpadding=3D0 cellspacing=3D0 valign=3Dtop style=3D'dir=
+ection:ltr;
+ border-collapse:collapse;border-style:solid;border-color:#A3A3A3;border-wi=
+dth:
+ 1pt'>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+  lang=3Dx-none>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�入格式</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�出格式</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>presto</span><span style=3D'font-family:"Microsoft YaHei"'
+  lang=3Dzh-CN>代码</span></p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>hive</span><span style=3D'font-family:"Microsoft YaHei"' lan=
+g=3Dzh-CN>代码</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期转日期</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2017-12-12
+  10:00:00</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.952in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2017-12-12</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  to_date('2011-12-08 10:01:01','yyyy-mm-dd hh:mi:ss')</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.7909in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  to_date('2011-12-08 10:03:01')</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期转年</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2017-12-12</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2017-12-12
+  10:00:00</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2017</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>select
+  year(cast('2012-12-08' as date))</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>select
+  year(cast('2012-12-08 12:00:00' as timestamp))</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  year('2012-12-08')</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  year('2012-12-08 10:00:00')</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期转月</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2017-12-12</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2017-12-12
+  10:00:00</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>12</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>select
+  month(cast('2012-12-08' as date));</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>select
+  month (cast('2012-12-08 12:00:00' as timestamp))</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>select
+  month('2011-12-08') </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>select
+  month('2011-12-08 10:03:01')</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期转天</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2017-12-10</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2017-12-10
+  10:00:00</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>10</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>select
+  day(cast('2012-12-08' as date))</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>select
+  day (cast('2012-12-08 12:00:00' as timestamp))</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  day('2011-12-08')</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  day('2011-12-08 10:03:01')</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期转小时</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2017-12-10
+  10:00:00</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>10</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  hour (cast('2012-12-08 12:00:00' as timestamp))</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  hour ('2011-12-08 10:03:01')</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期转分钟</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2011-12-08
+  10:03:01</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>3</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  minute(cast('2012-12-08 12:00:00' as timestamp))&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  minute('2011-12-08 10:03:01')</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期转秒</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2011-12-08
+  10:03:01</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>1</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  second (cast('2012-12-08 12:00:00' as timestamp))&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  second ('2011-12-08 10:03:01')</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期转周</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>2012-12-08
+  12:00:00</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>49</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1965in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  week_of_year (cast('2012-12-08 12:00:00' as timestamp))</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.7875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  weekofyear ('2011-12-08 10:03:01') </p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期比较</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期之差，小时之差</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>select
+  date_diff('day' ,cast('2017-07-25' as timestamp), cast('2017-07-24' as
+  timestamp))</p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>select
+  date_diff('hour',cast('2016-08-01 12:00:00' as timestamp),cast( '2016-08-=
+01
+  14:00:00' as timestamp))</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.0013in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  datediff(substr(cast('2017-07-25' as
+  varchar(20)),1,10),substr(cast('2017-07-24' as varchar(20)),1,10))</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期增加</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  date_add('day',10,cast( '2012-12-08' as date))</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  date_add('2012-12-08',10)</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�期减少</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>select
+  date_add('day',-10,cast('2012-12-08' as date))</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  date_sub('2012-12-08',10) </p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�区转换</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calib=
+ri'
+  lang=3Den-US>UTC</span><span style=3D'font-family:"Microsoft YaHei"' lang=
+=3Dzh-CN>时间</span></p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�国时间</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>SELECT
+  timestamp '2012-10-31 01:00 UTC' AT TIME ZONE 'America/Los_Angeles'</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�回当前时期</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+  lang=3Dx-none>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  current_date </p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'>�=
+�回当前时区的时间</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+  lang=3Dx-none>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  current_time </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  current_timestamp </p>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>select
+  now()</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.2305in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+  lang=3Dx-none>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:1.1875in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:.9361in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:11.0pt'
+  lang=3Dx-none>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:4.1777in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-non=
+e>&nbsp;</p>
+  </td>
+  <td style=3D'border-style:solid;border-color:#A3A3A3;border-width:1pt;
+  vertical-align:top;width:3.8069in;padding:2.0pt 3.0pt 2.0pt 3.0pt'>
+  <p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Den-US=
+>&nbsp;</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+&nbsp;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+&nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>已使用 Microsoft OneNote 2016 创建。</p>
+
+</div>
+
+</body>
+
+</html>
