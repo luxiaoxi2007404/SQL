@@ -1,0 +1,188 @@
+MIME-Version: 1.0
+Content-Location: file:///C:/01F587A8/file8264.htm
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="utf-8"
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office"
+xmlns:dt=3D"uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<meta name=3DProgId content=3DOneNote.File>
+<meta name=3DGenerator content=3D"Microsoft OneNote 15">
+<link id=3DMain-File rel=3DMain-File href=3Dfile8264.htm>
+<link rel=3DFile-List href=3D"file8264.files/filelist.xml">
+</head>
+
+<body lang=3Dzh-CN style=3D'font-family:Calibri;font-size:11.0pt'>
+
+<div style=3D'direction:ltr;border-width:100%'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:5.9381in'>
+
+<div style=3D'direction:ltr;margin-top:0in;margin-left:0in;width:2.4965in'>
+
+<p style=3D'margin:0in;font-family:"Microsoft YaHei";font-size:20.0pt'>建�=
+��永久分区表</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.0388in;margin-left:0in;width:1.7736=
+in'>
+
+<p style=3D'margin:0in;font-size:10.0pt;color:gray'><span style=3D'font-fam=
+ily:
+Calibri'>2017</span><span style=3D'font-family:"Microsoft YaHei"'>年</span=
+><span
+style=3D'font-family:Calibri'>12</span><span style=3D'font-family:"Microsof=
+t YaHei"'>月</span><span
+style=3D'font-family:Calibri'>26</span><span style=3D'font-family:"Microsof=
+t YaHei"'>日</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:10.0pt;color:gray'>15:=
+22</p>
+
+</div>
+
+<div style=3D'direction:ltr;margin-top:.4743in;margin-left:0in;width:5.9381=
+in'>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri'
+lang=3Den-US>1</span><span style=3D'font-family:"Microsoft YaHei"' lang=3Dz=
+h-CN>、建立永久表</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+USE
+dw_fltdb;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+CREATE
+EXTERNAL TABLE lxx_bxmb_names(</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri'
+lang=3Dx-none><span style=3D'mso-spacerun:yes'>     </span>uid STRING C=
+OMMENT '</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dx-none>不展示蒙版的</s=
+pan><span
+style=3D'font-family:Calibri' lang=3Den-US>uid')</span></p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri'
+lang=3Dx-none><span style=3D'mso-spacerun:yes'> </span>COMMENT '</span><sp=
+an
+style=3D'font-family:"Microsoft YaHei"' lang=3Dx-none>保险蒙版个性化=
+中不展示蒙版的</span><span
+style=3D'font-family:Calibri' lang=3Den-US>uid</span><span style=3D'font-fa=
+mily:"Microsoft YaHei"'
+lang=3Den-US>表</span><span style=3D'font-family:Calibri' lang=3Den-US>'</=
+span></p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri'
+lang=3Dx-none><span style=3D'mso-spacerun:yes'> </span>PARTITIONED BY(d ST=
+RING
+COMMENT 'date')</span><span style=3D'font-family:Calibri' lang=3Den-US><span
+style=3D'mso-spacerun:yes'>     </span>-- </span><span style=3D'font-fa=
+mily:"Microsoft YaHei"'
+lang=3Dzh-CN>按天分区则</span><span style=3D'font-family:"Microsoft Ya=
+Hei"' lang=3Den-US>d</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>不需要存作一个�=
+��量</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+<span
+style=3D'mso-spacerun:yes'> </span>STORED AS ORC;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri'
+lang=3Den-US>2</span><span style=3D'font-family:"Microsoft YaHei"' lang=3Dz=
+h-CN>、将数据导入分区中</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+use
+dw_fltdb;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+insert
+OVERWRITE TABLE lxx_bxmb_names partition(d)</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri'
+lang=3Dx-none>select distinct uid,d</span><span style=3D'font-family:Calibr=
+i'
+lang=3Den-US><span style=3D'mso-spacerun:yes'>              </=
+span>-- </span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>从临时表导入数�=
+��（</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>2</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>列哦），</span><sp=
+an
+style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>d</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>需要放在最后面<=
+/span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+from
+tmp_fltdb.lxx_bxmb_names</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+&nbsp;</p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri'
+lang=3Den-US>3</span><span style=3D'font-family:"Microsoft YaHei"' lang=3Dz=
+h-CN>、往某一特定分区插入数据</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+use
+dw_fltdb;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt'><span lang=3Dx=
+-none>insert
+into table lxx_bxmb_names partition(d =3D '2017-12-24')</span><span lang=3D=
+en-US><span
+style=3D'mso-spacerun:yes'>    </span></span></p>
+
+<p style=3D'margin:0in;font-size:11.0pt'><span style=3D'font-family:Calibri'
+lang=3Dx-none>select distinct uid<span style=3D'mso-spacerun:yes'>    �=
+�       
+</span></span><span style=3D'font-family:Calibri' lang=3Den-US>-- </span><s=
+pan
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>上面指定</span><sp=
+an
+style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>d</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>，下面就不需要<=
+/span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Den-US>d</span><span
+style=3D'font-family:"Microsoft YaHei"' lang=3Dzh-CN>了</span></p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+from
+tmp_fltquerydb.lxx_bxmb_names</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+;</p>
+
+<p style=3D'margin:0in;font-family:Calibri;font-size:11.0pt' lang=3Dx-none>=
+&nbsp;</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+<p style=3D'margin:0in'>&nbsp;</p>
+
+<p style=3D'text-align:left;margin:0in;font-family:Arial;font-size:9pt;
+color:#969696;direction:ltr'>已使用 Microsoft OneNote 2016 创建。</p>
+
+</div>
+
+</body>
+
+</html>
